@@ -1,19 +1,19 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    date (3.3.3)
+    date (3.4.1)
     mail (2.8.1)
       mini_mime (>= 0.1.1)
       net-imap
       net-pop
       net-smtp
     mini_mime (1.1.2)
-    net-imap (0.3.4)
+    net-imap (0.3.8)
       date
       net-protocol
     net-pop (0.1.2)
       net-protocol
-    net-protocol (0.2.1)
+    net-protocol (0.2.2)
       timeout
     net-smtp (0.3.3)
       net-protocol
@@ -23,10 +23,10 @@ GEM
       term-ansicolor (~> 1.7, >= 1.7.1)
     term-ansicolor (1.7.1)
       tins (~> 1.0)
-    timeout (0.3.2)
+    timeout (0.4.3)
     tins (1.32.1)
       sync
-    webrick (1.8.1)
+    webrick (1.8.2)
 
 PLATFORMS
   x86_64-linux
